@@ -72,7 +72,7 @@ void main()
 
 		printf("(%f, %f, %f)\n", result->x, result->y, result->z);	// Display our struct. For non struct* values it'd be . to index but here it is -> because they are values of a pointer
 
-		Sleep(100); // If your dense, this just waits for 1 second (It's in miliseconds)
+		Sleep(100); // If your dense, this just waits for 1/10 second (It's in miliseconds)
 	}
 }
 
